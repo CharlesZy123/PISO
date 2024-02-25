@@ -21,7 +21,7 @@ function echoActiveClass($requestUri)
       <div class="navbar-collapse collapse" style="justify-content: right;" id="navbarDefault">
          <ul class="navbar-nav ml-auto">
             <li class="nav-item pl-2 <?php echoActiveClass('index') || echoActiveClass('piso'); ?>">
-               <a class="nav-link" href="index">Home</a>
+               <a class="nav-link" href="../piso">Home</a>
             </li>
             <li class="nav-item">
                <a class="nav-link pl-2 <?php echoActiveClass('about'); ?>" href="about">About</a>
