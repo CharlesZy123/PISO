@@ -23,14 +23,14 @@ function echoActiveClass($requestUri)
             <li class="nav-item pl-2 <?php echoActiveClass('index') || echoActiveClass('piso'); ?>">
                <a class="nav-link" href="../piso">Home</a>
             </li>
-            <li class="nav-item">
-               <a class="nav-link pl-2 <?php echoActiveClass('about'); ?>" href="about">About</a>
+            <li class="nav-item <?php echoActiveClass('about'); ?>">
+               <a class="nav-link pl-2" href="about">About</a>
             </li>
-            <li class="nav-item">
-               <a class="nav-link pl-2 <?php echoActiveClass('login'); ?>" href="login">Login</a>
+            <li class="nav-item pl-2 <?php echoActiveClass('login'); ?>">
+               <a class="nav-link" href="login">Login</a>
             </li>
-            <li class="nav-item">
-               <a class="nav-link pl-2 <?php echoActiveClass('register'); ?>" href="register">Register</a>
+            <li class="nav-item pl-2 <?php echoActiveClass('register'); ?>">
+               <a class="nav-link" href="register">Register</a>
             </li>
          </ul>
       </div>
